@@ -192,29 +192,29 @@ def update_app_ui(Tabs, month_value, date_value,region_value,country_value,state
     fig = None
      
     if Tabs == "Map":
-        print("Data Type of month value = " , str(type(month_value)))
-        print("Data of month value = " , month_value)
+        print("Data Type of month value: " , str(type(month_value)))
+        print("Data of month value: " , month_value)
         
-        print("Data Type of Day value = " , str(type(date_value)))
-        print("Data of Day value = " , date_value)
+        print("Data Type of Day value: " , str(type(date_value)))
+        print("Data of Day value: " , date_value)
         
-        print("Data Type of region value = " , str(type(region_value)))
-        print("Data of region value = " , region_value)
+        print("Data Type of region value: " , str(type(region_value)))
+        print("Data of region value: " , region_value)
         
-        print("Data Type of country value = " , str(type(country_value)))
-        print("Data of country value = " , country_value)
+        print("Data Type of country value: " , str(type(country_value)))
+        print("Data of country value: " , country_value)
         
-        print("Data Type of state value = " , str(type(state_value)))
-        print("Data of state value = " , state_value)
+        print("Data Type of state value: " , str(type(state_value)))
+        print("Data of state value: " , state_value)
         
-        print("Data Type of city value = " , str(type(city_value)))
-        print("Data of city value = " , city_value)
+        print("Data Type of city value: " , str(type(city_value)))
+        print("Data of city value: " , city_value)
         
-        print("Data Type of Attack value = " , str(type(attack_value)))
-        print("Data of Attack value = " , attack_value)
+        print("Data Type of Attack value: " , str(type(attack_value)))
+        print("Data of Attack value: " , attack_value)
         
-        print("Data Type of year value = " , str(type(year_value)))
-        print("Data of year value = " , year_value)
+        print("Data Type of year value: " , str(type(year_value)))
+        print("Data of year value: " , year_value)
         
         #Filtering
         year_range = range(year_value[0], year_value[1]+1)
