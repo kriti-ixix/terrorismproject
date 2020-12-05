@@ -17,7 +17,6 @@ project_name = None
 # Defining My Functions
 def load_data():
     dataset_name = "global_terror.csv"
-  
     global df
     df = pd.read_csv(dataset_name)
     
